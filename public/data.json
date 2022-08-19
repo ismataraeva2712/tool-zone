@@ -1,0 +1,31 @@
+[
+    {
+        "_id": "1",
+        "description": "I arrange evry year maldives trip.you will get private villa on the indian occean,available resort and spa,many water activities and infinity swimming poll,not including air ticket.",
+        "picture": "https://imagizer.imageshack.com/img923/5250/kAMrQZ.jpg",
+        "price": 14000,
+        "name": "Data science"
+    },
+    {
+        "id": "625af8c3e3ae2f27956914d1",
+        "description": "Budget trip of maldives you will get sea view hotel,good restaurent facilities.not including air ticket.You will get atleast 2-3 island roaming.if you wanna water activities then give extra payment. ",
+        "picture": "https://imagizer.imageshack.com/img923/2381/yQfy8a.png",
+        "price": 9000,
+        "name": "Graphic design"
+    },
+    {
+        "id": "625af8c3721ed4805a9d3cf4",
+        "description": "If you want this package you will get air ticket of dhaka-coxbazar-dhaka.5 star hotel as like royal tulip,saimon beach resort.infinity swimming poll,spa & 1 day package also fly retaurant including.",
+        "picture": "https://imagizer.imageshack.com/img924/6028/0RAnp4.jpg",
+        "price": 12000,
+        "name": "Ethical hacking"
+    },
+    {
+        "id": "625af8c33d420902aa174ec3",
+        "description": "R u Student??and Your have big circle then come with me.big discount waiting for you.you will get return bus ticket,sea view room,good restaurant food,water acitivities.",
+        "picture": "https://imagizer.imageshack.com/img922/1401/tExqoc.jpg",
+        "price": 10000,
+        "name": "Web development"
+    }
+   
+]
