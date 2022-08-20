@@ -6,6 +6,7 @@ const Contact = () => {
             <div className="hero min-h-screen ">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
+      
       <h1 className="text-2xl font-bold text-secondary">Contact us</h1>
       <h1 className="text-2xl font-bold text-primary">Send a message.</h1>
       <p className="py-6">Do you have any question or need any information ,feel free and just send a message now.we will response within 24 hours.Stay with us.Thank you.</p>

@@ -9,6 +9,12 @@ import Signup from './Pages/Login/SignUp';
 import ServiceEnroll from './Pages/Home/ServiceEnroll';
 import RequireAuth from './Pages/Login/RequireAuth';
 import Contact from './Pages/Home/Contact';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+// ================================
+import "animate.css/animate.min.css";
+AOS.init();
+
 function App() {
   return (
     <div className="App">
