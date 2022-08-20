@@ -36,9 +36,9 @@ const Login = () => {
     };
     return (
         <div className='h-screen flex justify-center items-center'>
-           <div class="card w-96 bg-base-100  shadow-xl">
-  <div class="card-body">
-    <h2 class="card-title">Login</h2>
+           <div className="card w-96 bg-base-100  shadow-xl">
+  <div className="card-body">
+    <h2 className="card-title">Login</h2>
 
 
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -100,9 +100,9 @@ const Login = () => {
     <p><small>New to <spna className="text-secondary">Ed-Tech</spna>?<Link className='text-primary' to='/signup'>Create an account</Link></small></p>
 
   
-  <div class="divider">OR</div>
+  <div className="divider">OR</div>
   
-  <button onClick={()=>signInWithGoogle()} class="btn btn-outline btn-primary">Continue with Google</button>
+  <button onClick={()=>signInWithGoogle()} className="btn btn-outline btn-primary">Continue with Google</button>
   </div>
 </div>
         </div>

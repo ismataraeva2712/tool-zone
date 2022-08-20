@@ -8,6 +8,7 @@ import Login from './Pages/Login/Login';
 import Signup from './Pages/Login/SignUp';
 import ServiceEnroll from './Pages/Home/ServiceEnroll';
 import RequireAuth from './Pages/Login/RequireAuth';
+import Contact from './Pages/Home/Contact';
 function App() {
   return (
     <div className="App">
@@ -15,11 +16,12 @@ function App() {
      <Routes>
       <Route path='/' element={<Home></Home>}></Route>
       <Route path='/services' element={<Services></Services>}></Route>
-      <Route path='/enroll' element={<RequireAuth>
+      <Route path='/enroll/:id' element={<RequireAuth>
         <ServiceEnroll></ServiceEnroll>
       </RequireAuth>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>
       <Route path='/signup' element={<Signup></Signup>}></Route>
+      <Route path='/contact' element={<Contact></Contact>}></Route>
      </Routes>
     </div>
   );
