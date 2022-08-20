@@ -1,30 +1,30 @@
 [
     {
-        "_id": "1",
-        "description": "I arrange evry year maldives trip.you will get private villa on the indian occean,available resort and spa,many water activities and infinity swimming poll,not including air ticket.",
+        
+        "description": "In this course, you will gain proficiency in how to analyze a number of statistical procedures in SPSS.",
         "picture": "https://imagizer.imageshack.com/img923/5250/kAMrQZ.jpg",
-        "price": 14000,
+        "price": 200,
         "name": "Data science"
     },
     {
-        "id": "625af8c3e3ae2f27956914d1",
-        "description": "Budget trip of maldives you will get sea view hotel,good restaurent facilities.not including air ticket.You will get atleast 2-3 island roaming.if you wanna water activities then give extra payment. ",
+       
+        "description": "The Ultimate Graphic Design Course Which Covers Photoshop, Illustrator, InDesign,Design Theory, Branding and Logo Design",
         "picture": "https://imagizer.imageshack.com/img923/2381/yQfy8a.png",
-        "price": 9000,
+        "price": 90,
         "name": "Graphic design"
     },
     {
-        "id": "625af8c3721ed4805a9d3cf4",
-        "description": "If you want this package you will get air ticket of dhaka-coxbazar-dhaka.5 star hotel as like royal tulip,saimon beach resort.infinity swimming poll,spa & 1 day package also fly retaurant including.",
+        
+        "description": "Become an ethical hacker that can hack computer systems like black hat hackers and secure them like security experts.",
         "picture": "https://imagizer.imageshack.com/img924/6028/0RAnp4.jpg",
-        "price": 12000,
+        "price": 120,
         "name": "Ethical hacking"
     },
     {
-        "id": "625af8c33d420902aa174ec3",
-        "description": "R u Student??and Your have big circle then come with me.big discount waiting for you.you will get return bus ticket,sea view room,good restaurant food,water acitivities.",
+       
+        "description": "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps",
         "picture": "https://imagizer.imageshack.com/img922/1401/tExqoc.jpg",
-        "price": 10000,
+        "price": 100,
         "name": "Web development"
     }
    
