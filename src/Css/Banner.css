@@ -1,0 +1,17 @@
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    
+    opacity: 1;
+    border-radius:30px;
+  }
+.transboxSm {
+    margin: 10px;
+    background-color: #ffffff;
+    
+    opacity: 1;
+    border-radius:30px;
+  }
+  .banner{
+    background-color: #f5f5f5;
+  }

@@ -1,31 +1,59 @@
 [
-    {
-        
-        "description": "In this course, you will gain proficiency in how to analyze a number of statistical procedures in SPSS.",
-        "picture": "https://imagizer.imageshack.com/img923/5250/kAMrQZ.jpg",
-        "price": 200,
-        "name": "Data science"
-    },
-    {
-       
-        "description": "The Ultimate Graphic Design Course Which Covers Photoshop, Illustrator, InDesign,Design Theory, Branding and Logo Design",
-        "picture": "https://imagizer.imageshack.com/img923/2381/yQfy8a.png",
-        "price": 90,
-        "name": "Graphic design"
-    },
-    {
-        
-        "description": "Become an ethical hacker that can hack computer systems like black hat hackers and secure them like security experts.",
-        "picture": "https://imagizer.imageshack.com/img924/6028/0RAnp4.jpg",
-        "price": 120,
-        "name": "Ethical hacking"
-    },
-    {
-       
-        "description": "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps",
-        "picture": "https://imagizer.imageshack.com/img922/1401/tExqoc.jpg",
-        "price": 100,
-        "name": "Web development"
-    }
    
+    { 
+        "picture": "https://imagizer.imageshack.com/img922/3904/nJBowa.png",
+        "price": 76,
+        "minimumOrderQuantity": 12,
+        "availableQuantity": 1002,
+        "name": "Voltage Tester",
+        "description": "used to make cold weld joints bettween wires and a connector by deforming one or both of then to hold the other"
+    },
+    { 
+        "picture": "https://imagizer.imageshack.com/img923/5566/LXzMt8.jpg",
+        "price": 31,
+        "minimumOrderQuantity": 12,
+        "availableQuantity": 1002,
+        "name": "Line taster",
+        "description": " Used to test the presence of current and to identity phase/live wire in electrical installations."
+    },
+    { 
+        "picture": "https://imagizer.imageshack.com/img922/2599/dEDO2p.jpg",
+        "price": 20,
+        "minimumOrderQuantity": 12,
+        "availableQuantity": 1002,
+        "name": "Conduit Bender",
+        "description": "used to bend electrical pipes for installation. Used to test the presence of current and to identity phase."
+    },
+    {
+        "picture": "https://i.postimg.cc/8CMHB9w6/t2.webp",
+        "price": 35,
+        "minimumOrderQuantity": 12,
+        "availableQuantity": 1002,
+        "name": "Rescue Hook/Rod",
+        "description": "Used to remove persons incapacitated by electrical shock from the danger area."
+    },
+    { 
+        "picture": "https://i.postimg.cc/5yNSJ0JB/t4.webp",
+        "price": 50,
+        "minimumOrderQuantity": 12,
+        "availableQuantity": 1002,
+        "name": "Crimpers",
+        "description": " Used to make cold weld joints between wires and a connector by deforming one or both of them to hold the other."
+    },
+    {
+        "picture": "https://i.postimg.cc/zXvFPV05/tool2.jpg",
+        "price": 29,
+        "minimumOrderQuantity": 12,
+        "availableQuantity": 1002,
+        "name": "Terminal Block",
+        "description": " Used to secure and/or terminate wires. At first  we selected 3 times , then final selection are collected for our tool-zone"
+    },
+    { 
+        "picture": "https://i.postimg.cc/PJPvK8hR/tool14.jpg",
+        "price": 29,
+        "minimumOrderQuantity": 12,
+        "availableQuantity": 1002,
+        "name": "Terminal Block",
+        "description": " Used to secure and/or terminate wires. At first  we selected 3 times , then final selection are collected for our tool-zone"
+    }
 ]
