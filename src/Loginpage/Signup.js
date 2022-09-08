@@ -28,6 +28,9 @@ const Signup = () => {
       if(gError|| error || error2){
           errorMessage=<p className='text-primary'>{gError?.message||error?.message || error2?.message}</p>
       }
+      if(token){
+        navigate('/')
+      }
     const onSubmit =async( data )=> {
        await createUserWithEmailAndPassword(data.email, data.password)
         await updateProfile({ displayName:data.name });

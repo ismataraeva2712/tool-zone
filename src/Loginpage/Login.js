@@ -6,6 +6,8 @@ import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-fireba
 import { FaUserAlt } from 'react-icons/fa';
 
 import Loading from './Loading';
+import useToken from '../Hook/useToken';
+import { useEffect } from 'react';
 const Login = () => {
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
     const [
@@ -14,6 +16,7 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+    const[token]=useToken(user || gUser)
     const { register, formState: { errors }, handleSubmit } = useForm();
     const navigate = useNavigate()
     let location = useLocation();
@@ -26,9 +29,11 @@ const Login = () => {
     if (gError || error) {
         errorMessage = <p className='text-primary'>{gError?.message || error?.message}</p>
     }
-    if (user || gUser) {
-        navigate(from, { replace: true })
-    }
+    useEffect(() => {
+        if (token) {
+            navigate(from, { replace: true });
+        }
+    }, [token, from, navigate])
 
     const onSubmit = data => {
         signInWithEmailAndPassword(data.email, data.password)

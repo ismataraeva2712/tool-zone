@@ -6,6 +6,7 @@ import Tools from './Tools';
 import Info from './Info';
 import Business from './Business';
 import ExtraSec from './ExtraSec';
+import Reviews from './Reviews';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Tools></Tools>
             <ExtraSec></ExtraSec>
             <Business></Business>
+            <Reviews></Reviews>
            
             <Footer></Footer>
         </div>

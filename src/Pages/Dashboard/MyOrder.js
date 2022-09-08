@@ -3,21 +3,39 @@ import { useState, useEffect } from 'react';
 import auth from './../../firebase.init';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import MyOrderRow from './MyOrderRow';
+import { useNavigate } from 'react-router-dom';
+import { signOut } from 'firebase/auth';
 
 const MyOrder = () => {
     const[order,setOrder]=useState([])
     const [user] = useAuthState(auth)
+    const navigate=useNavigate()
     useEffect(() => {
         if(user){
-            fetch(`http://localhost:5000/booking?email=${user.email}`)
-            .then(res=>res.json())
-            .then(data=>setOrder(data))
+            fetch(`https://toolzone.onrender.com/booking?email=${user.email}`,{
+                method: 'GET',
+                headers: {
+                  'authorization': `Bearer ${localStorage.getItem('accessToken')}`
+                }
+              })
+              .then(res => {
+                console.log('res', res)
+                if (res.status === 401 || res.status === 403) {
+                  signOut(auth)
+                  localStorage.removeItem('accessToken')
+                  navigate('/')
+                }
+                return res.json()
+              })
+              .then(data => {
+                setOrder(data)
+              })
         }
     }, [user])
     const handleDelete = orderid => {
         const proceed = window.confirm('Are you sure ?? wanna deleted?')
         if (proceed) {
-          const url = `http://localhost:5000/booking/${orderid}`
+          const url = `https://toolzone.onrender.com/booking/${orderid}`
           fetch(url, {
             method: 'DELETE'
           })
