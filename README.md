@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Tool-Zone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tool-zone live site link :- [https://tool-zone.web.app/](https://tool-zone.web.app/).
 
-## Available Scripts
 
-In the project directory, you can run:
+### `Project Description`
+This is the power,mower,safety,hand tools types website.it is based manufacturer related.and show some tools and purchase this product .You have to purchase at least minimum quantity of that product.
 
-### `npm start`
+### `my order and Payment`
+ when you log in you  see DashBoard.click dashboard you will see my order section. it will show delete and pay button.you can easily cancel your order or you can easily pay.when press pay button it will go payment page and you see bank card option .you give your credit card number and some details then click pay button your payment will be success and see also transaction id. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `Review section and my profile `
+when you log in you  see DashBoard.click dashboard you will see Add a review section.as a customer you can review our product.and also see my profile section..here you see some information of you.and you also easily update your profile. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### `For Admin section`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When an admin login he will see in dashboard make admin,add product,manage order,manage product.in make admin page he easily make an admin any user.add product page he will add a tools item.manage order page he will see which customer not payed yet he can easily cancel that order..and which customer pay all ready admin will see pending.when he click pending order will be shipped.and manage product page he can easily delete any product.
 
-### `npm run build`
+### `Log in system,blogs`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this application you login via email pass or google sign in system.also using token..after 1 hour it will be log out .in blog section you see some tools blog.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Installation and using this project`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**React,MongoDB,Heroku,Tailwind,daisyui,stripe js,react query,react hook form,react router dom,firebase authentication,react firebase authentication hook,react font-awesome,react-toastify.**
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
